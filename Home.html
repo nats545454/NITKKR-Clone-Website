@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Institute of Technology Kurukshetra</title>
+
+    <style>
+        body {
+            background-color:rgb(223, 217, 135);
+            border: 2px groove rgb(58, 205, 241);
+        }
+
+        .symbol{
+            padding-left: 40%;
+            
+        }
+
+        .naviBar{
+            background-color:rgb(46, 39, 145);
+            /* overflow: hidden; */
+            margin-left: 5%;
+            margin-right: 5%;
+            position: sticky;
+            top: 0px;
+            min-height: 50px;
+        }
+        .naviBar a{
+            padding: 25px 27px;
+            float: left;
+            font-size: 16px;
+            text-decoration: none;
+            color: white;
+        }
+        .naviBar a:hover{
+            background-color: rgb(238, 236, 149);
+        }
+
+        .dropdown {
+            float: left;
+            overflow: visible;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;  
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color:gray;
+            color: red;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 10;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: gray;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* .dropdown:hover .dropbtn {
+            background-color: gray;
+            color: red;
+        } */
+
+        .news{
+            width: 20%;
+            background-color: rgb(211, 203, 203);
+            /* margin-left: 70%; */
+            float: right;
+            padding-bottom: 20%;
+        }
+        .news h4{
+            font-size: 25px;
+            color: white;
+        }
+        .notification{
+            width: 20%;
+            background-color: rgb(211, 203, 203);
+            /* margin-left: 70%; */
+            float: left;
+            padding-bottom: 10%;
+        }
+        .notification h4{
+            font-size: 25px;
+            color: white;
+            padding-left: 2px;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+
+        address{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="symbol">
+        <img src="./images/Symbol.jpg" alt="NITSymbol" style="width:40%;height:30%;">
+    </div>
+
+    <div class="naviBar">
+        <a href="./Home.html" style="background-color: orangered;">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Institute
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./InstituteProfile.html">Institute Profile</a>
+              <a href="https://www.nitkkr.ac.in/clientFiles/FILE_REPO/2012/AUG/3/1343986629983/screenshot.png" target="_blank">Location</a>
+              <a href="./ServiceRules.html">Service Rules</a>
+            </div>
+          </div>
+        
+        <a href="./Administration.html">Administration</a>
+        <a href="https://www.nitkkraa.org/">Alumni Association</a>
+        <a href="./PhotoGallery.html">Photo Gallery</a>
+        <a href="./AboutUs.html">About Us</a> 
+    </div>
+
+    <img src="./images/BuildingImg.jfif" alt="Building" height="40%" width="100%">
+    
+    <br><br><br>
+    <hr>
+
+    <p>
+
+        <aside class="news">
+            <h4 style="background-color: rgb(48, 100, 100);">News</h4>
+            <a href="https://nitkkr.ac.in/docs/NEWS%20LETTER%202020%20FINAL_compressed%20(1)%2019022020.pdf" target="_blank">NEWS LETTER 2020</a>
+        </aside>
+        <aside class="notification">
+            <h4 style="background-color: rgb(48, 100, 100);">Notification</h4>
+            <a href="https://nitkkr.ac.in/docs/PR.%20Schedule%20B.Tech.%20First%20year%20MED-21-1093%2016062021.pdf" target="_blank">SCHEDULE B.TECH Ist YEAR</a>   <br><br>
+            <a href="https://nitkkr.ac.in/docs/Notification%20dt.15.06.2021%2016062021.pdf" target="_blank">Notification dated 15.06.2021 regarding closure of Institute till further orders</a>    <br><br>
+            <a href="https://nitkkr.ac.in/docs/End%20Sem%20Practical%20Examination%20Schedule%20MED-21-1094%2016062021.pdf" target="_blank">End Sem Practical Examination Schedule MED-21-1094</a>  <br><br>
+            <a href="https://nitkkr.ac.in/docs/Detained%20List%20of%20Practical%20End%20Semester%20Examinations%20June%202021%20[B.Tech%202nd%20Semester]%2014062021.PDF" target="_blank">Detained List of Practical End Semester</a>
+        </aside>
+        National Institute of Technology Kurukshetra (NIT Kurukshetra or NITKKR) is a public technical and research university located in Kurukshetra. In December 2008, it was accredited with the status of Institute of National Importance (INI). It is one of the 30 National Institutes of Technology established and administered by Government of India.[1] It runs undergraduate and postgraduate in programme Engineering and Doctor of Philosophy programme in Engineering, Sciences and Humanities. <br>
+
+            
+        
+        a, Jawaharlal Nehru, sought to develop India as a leader in science and technology. Between 1959 and 1965, with this vision, the Government founded 14 educational institutions in different regions of India. The system of competitive entry (based on merit) gave access to higher education in these institutions. Such an institution was established in 1963 in Kurukshetra as a joint enterprise of the Government of India and the Government of Punjab, India as the Regional Engineering College, Kurukshetra (REC Kurukshetra). In 2002, all the Regional Engineering Colleges were unified by a common entrance exam. Therefore, REC Kurukshetra was renamed to National Institute of Technology under the NIT Act and was given a Deemed University status.
+
+        
+        
+        NIT Kurukshetra awards undergraduate B.Tech. in various engineering fields in a four-year programme.[2] It offers postgraduate (PG) M.Tech. degrees in similar engineering fields as well as Physics. The M.Tech. degree is awarded after four semesters (two years) or two semesters for relevant PG diploma holders.[3] Ph.D. research programmes are offered in engineering, sciences, humanities and social sciences as well as computer applications.[4] As of 2006 it also offers an MBA degree.
+            
+        Until 2012, admissions were made on the basis of merit in the All India Engineering Entrance Examination. This exam consisted of a section each on Mathematics, Physics and Chemistry. Every year, more than 1,000,000 students appeared for this exam and the acceptance rate was close to 3%.
+
+        Starting in 2013, admissions are now made on the basis of the merit list of Joint Entrance Examination. This is a common examination for all the premier universities in India. Under this, the candidates are ranked based on 60% of the marks scored in the test, and 40% of the marks in the grade XII board examinations.
+
+        <br>
+
+        For foreign students, admissions are done through Direct Admission of Students Abroad (DASA) scheme.[6]
+
+        Postgraduate
+        NIT Kurukshetra accepts applications to the following degrees under the postgraduate course:
+
+        <br>
+
+        Master of Technology (through GATE score)
+        Master of Business Administration (through CAT/JMET score, followed by group discussions and personal interview)
+        Master of Computer Application (through NIMCET score)
+        For M.Tech. admission, seats are first filled up by admitting GATE qualified candidates and then by industry sponsored candidates. Remaining vacant seats are offered to Non-GATE candidates with a minimum of 60% marks (55% for SC candidates) in their qualifying examination. While GATE candidates are eligible for a scholarship of Rs.12400/- per month. Non-GATE candidates are not given any scholarship.[7]
+        
+        <h5>Rankings</h5>
+        <p>The National Institutional Ranking Framework (NIRF) ranked National Institute of Technology, Kurukshetra 41 in the engineering ranking in 2019.</p>
+        
+
+    </p>
+
+    <br>
+    <hr>
+
+    <address>
+        <i>
+            <img src="./images/NS.png" alt="DTLogo" style="width:80px;height:80px;">
+            Page is made by Natasha Singh <br>
+            Email :
+            <a href="mailto:natashasinghns54@gmail.com" title="Mail Natasha Singh">natashasinghns54@gmail.com</a> <br>
+            Muzaffarnagar<br>
+            Uttar Pradesh<br>
+            India<br>
+            </i>
+    </address>
+    
+</body>
+</html>
